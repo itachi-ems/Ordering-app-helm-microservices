@@ -12,6 +12,7 @@ spec:
       labels:
         app: auth
     spec:
+      serviceAccountName: my-kubectl-service
       containers:
         - name: auth
           image: mguay/ordering-app_auth

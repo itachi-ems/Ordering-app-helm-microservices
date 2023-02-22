@@ -5,5 +5,5 @@ mongodb:
 
 rabbitmq:
   auth:
-    username: user
-    password: password123
+    usernames: user
+    passwords: password123

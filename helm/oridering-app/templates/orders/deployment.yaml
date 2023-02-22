@@ -12,6 +12,7 @@ spec:
       labels:
         app: orders
     spec:
+      serviceAccountName: my-kubectl-service
       containers:
         - name: orders
           image: mguay/ordering-app_orders

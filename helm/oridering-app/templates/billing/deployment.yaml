@@ -12,6 +12,7 @@ spec:
       labels:
         app: billing
     spec:
+      serviceAccountName: my-kubectl-service
       containers:
         - name: billing
           image: mguay/ordering-app_billing
